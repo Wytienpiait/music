@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khảo sát</title>
+    <link rel="stylesheet" href="Cảm nhận âm nhạc.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+</head>
+<body>
+
+    <h1>Love Music <i class='bx bxs-music'></i></h1> 
+
+    <form method="post" action="thongtin.php">
+        <div class="name">
+            
+        <input name="ten" placeholder="Tên của bạn" style="text-align: center;" id="nameban">
+
+        </div>
+
+        <br>
+       
+        <div class="date">
+           
+            <input name="ngaysinh" type="datetime" placeholder="Ngày sinh của bạn" style="text-align: center;" id="dateban">
+    
+        </div>
+
+        <br>
+
+        <div class="gender">
+            
+            <input name="gioitinh" type="radio" value="Nam">Nam
+            <input name="gioitinh" type="radio" value="Nữ">Nữ
+            <input name="gioitinh" type="radio" value="Khác">Khác
+
+        </div>
+
+        <br>
+
+        <div class="musicin">
+            <label for="nhaccu" style="color: rgb(250, 0, 0);"><b>Nhạc cụ yêu thích nhất:</b> </label>
+            <select name="nhaccu">
+                <option value="Piano">Piano</option>
+                <option value="Guitar">Guitar</option>
+                <option value="Violin">Violin</option>
+                <option value="Khác">Khác</option>
+                
+            </select>
+        </div>
+
+        <br>
+
+
+        <div class="singer">
+            
+            <input name="casi" placeholder="Ca sĩ yêu thích nhất">
+        </div>
+
+        <br>
+
+        <div class="song">
+           
+            <input name="baihat" placeholder="Bài hát yêu thích nhất">
+        </div>
+
+        <br>
+        
+
+
+        <div class="gui">
+            <button type="submit" style="width: 80px;">Gửi</button>
+            
+        </div>
+    
+
+    </form>
+
+   
+    
+</body>
+</html>

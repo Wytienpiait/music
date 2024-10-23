@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+}
+
+
+
+.tuade{
+    text-align: center;
+    font-size: 45px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: deeppink;
+    background-color: lightgreen;
+    border: dashed 5px;
+    border-radius: 20px;
+    border-color: red;
+    
+    padding: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+
+    
+    
+
+}
+
+.tuade:hover{
+    box-shadow: 10px 10px 15px  orange;
+}
+
+h2{
+    transform: translateX(10px);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.nho{
+    transform: translateX(22px);
+    font-size: 23px;
+    
+}
+
+.thongtin{
+    text-align: center;
+    border: dashed gray;
+    margin: 40px;
+    padding: 30px;
+    background-color: pink;
+}
+
+.image{
+    position :absolute;
+    right: 0;
+    top: 10px;
+    width: 78px;
+}
+
+.image2{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 380px;
+   
+}
+
+
+.hinh3{
+    position: relative;
+   
+   
+}
+
+
+
+.image3{
+    width: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    
+    
+    
+   
+   
+}
